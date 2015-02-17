@@ -1,0 +1,32 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Better Completion",
+		"BracketHighlighter",
+		"DashDoc",
+		"Emmet",
+		"GitGutter",
+		"Jade",
+		"jQuery",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"PhpDoc",
+		"PlainTasks",
+		"Project Manager",
+		"Sass",
+		"SFTP",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-phpcs",
+		"SyncedSideBar",
+		"Terminal",
+		"Theme - DC",
+		"Theme - LP"
+	]
+}

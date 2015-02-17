@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<div role="tabpanel">
+
+	<!-- ${1: Default} Nav tabs -->
+	<ul class="nav nav-tabs" role="tablist">
+		<li role="presentation" class="active">
+			<a href="#${2}" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+		</li>
+		<li>
+			<a href="#${3}" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+		</li>
+		<li>
+			<a href="#${4}" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+		</li>
+	</ul>
+
+	<!-- Tab panes -->
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane fade in active" id="${2}">
+			<h3>${2}</h3>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="${3}">
+			<h3>${3}</h3>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="${4}">
+			<h3>${4}</h3>
+		</div>
+	</div>
+
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>navtab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
